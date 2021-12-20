@@ -34,7 +34,7 @@
     <title>Document</title>
 </head>
 <body>
-    <div style="background-color: grey; width:200px">
+    <div style="background-color: grey; width:200px; text-align:center">
         <?php 
             for($i=0; $i < count($db["teachers"]); $i++) {
                 echo $db["teachers"][$i]["name"];
@@ -44,7 +44,7 @@
             }
         ?>
     </div>
-    <div style="background-color: green; width:200px">
+    <div style="background-color: green; width:200px; text-align:center">
         <?php 
             for($i=0; $i < count($db["pm"]); $i++) {
                 echo $db["pm"][$i]["name"];
